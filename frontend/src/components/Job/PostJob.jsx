@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -182,6 +183,16 @@ const PostJob = () => {
         </div>
       </div>
     </>
+=======
+import React from 'react';
+
+const PostJob = () => {
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Post a Job</h1>
+      <p className="text-gray-600 dark:text-gray-300 mt-4">Post job form will be displayed here</p>
+    </div>
+>>>>>>> 7e588941524f722dc134e25bb81a301a215b05a3
   );
 };
 

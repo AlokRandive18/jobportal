@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext, useEffect, useState } from "react";
 import { Context } from "../../main";
 import axios from "axios";
@@ -122,10 +123,21 @@ const MyApplications = () => {
         <ResumeModal imageUrl={resumeImageUrl} onClose={closeModal} />
       )}
     </section>
+=======
+import React from 'react';
+
+const MyApplications = () => {
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-white">My Applications</h1>
+      <p className="text-gray-600 dark:text-gray-300 mt-4">Your applications will be displayed here</p>
+    </div>
+>>>>>>> 7e588941524f722dc134e25bb81a301a215b05a3
   );
 };
 
 export default MyApplications;
+<<<<<<< HEAD
 
 const JobSeekerCard = ({ element, deleteApplication, openModal }) => {
   return (
@@ -197,3 +209,5 @@ const EmployerCard = ({ element, openModal }) => {
     </>
   );
 };
+=======
+>>>>>>> 7e588941524f722dc134e25bb81a301a215b05a3

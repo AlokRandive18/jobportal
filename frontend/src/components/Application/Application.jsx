@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from "axios";
 import React, { useContext, useState } from "react";
 import toast from "react-hot-toast";
@@ -184,3 +185,17 @@ const Application = () => {
 };
 
 export default Application;
+=======
+import React from 'react';
+
+const Application = () => {
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Apply for Job</h1>
+      <p className="text-gray-600 dark:text-gray-300 mt-4">Application form will be displayed here</p>
+    </div>
+  );
+};
+
+export default Application;
+>>>>>>> 7e588941524f722dc134e25bb81a301a215b05a3
